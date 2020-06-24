@@ -8,8 +8,9 @@ src/main/java/resource/
 
 Se encuentra el archivo appication.yml
 En este archivo debe modificar esta línea del código:
-  url: jdbc:mysql://localhost:3306/products?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
-  Indicando el puerto que ocupa MYSQL que en este caso es el 3306 y el nombre de la base de datos que en este caso es 'products'
+
+url: jdbc:mysql://localhost:3306/products?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+Indicando el puerto que ocupa MYSQL que en este caso es el 3306 y el nombre de la base de datos que en este caso es 'products'
 ### ############################################################## ###
 
 
