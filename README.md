@@ -16,8 +16,8 @@ Indicando el puerto que ocupa MYSQL que en este caso es el 3306 y el nombre de l
 
 ### datos prescindibles ###
 La base de datos, contiene una tabla llamada products la cual contiene los siguientes atributos:
-  id foreign key integer auto_increment
-  name varchar(30) not null
+id foreign key integer auto_increment
+name varchar(30) not null
 ### ################## ###
   
 En caso contrario si desea agregar más columnas se deberá modificar la clase Product.java, ya que es la encargada de establecer
