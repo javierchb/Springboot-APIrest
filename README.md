@@ -4,10 +4,7 @@ puede utilizar MYSQL Workbench.
 ### IMPORTANTE CAMBIO DE PUERTO PARA CORRER EL API REST CON LA BD: ###
 Dentro de la carpeta:
 
-src/
-...main/
-........java/
-............resource/
+src/main/java/resource/
 
 Se encuentra el archivo appication.yml
 En este archivo debe modificar esta línea del código:
@@ -16,7 +13,7 @@ En este archivo debe modificar esta línea del código:
 ### ############################################################## ###
 
 
-### DATOS PRESENDIBLES ###
+### datos prescindibles ###
 La base de datos, contiene una tabla llamada products la cual contiene los siguientes atributos:
   id foreign key integer auto_increment
   name varchar(30) not null
